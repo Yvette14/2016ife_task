@@ -1,0 +1,69 @@
+body{
+	font-family: "Microsoft Yahei";
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+#wrapper{
+	margin: 20px;
+	padding: 20px;
+	background: #eee;
+	border: 1px solid #999;
+	overflow: hidden;
+	min-width: 800px;
+}
+
+section{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+section.teamlogo{
+	width: 200px;
+	background: white;
+	padding: 20px;
+	border: 1px solid #999;
+	float: left;
+}
+
+section img{
+	border: 1px solid #999;
+	float: left;
+}
+
+section.teamlogo p{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 0;
+	margin-left: 15px;
+}
+
+section.tintro{
+	border: 1px solid #999;
+	padding: 20px;
+	padding-top: 0;
+	margin-left: 220px;
+	margin-right: 140px;
+	word-wrap: break-word;
+	font-size: 14px;
+	background: white;
+}
+
+section.perlogo{
+	border: 1px solid #999;
+	float: right;
+	padding: 20px;
+	width: 120px;
+	background: white;
+}
+
+section.perlogo img{
+	display: block;
+}
+
+section.perlogo img+img{
+	margin-top: 20px
+}
