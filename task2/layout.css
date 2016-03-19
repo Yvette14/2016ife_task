@@ -31,6 +31,8 @@ section.teamlogo{
 section img{
 	border: 1px solid #999;
 	float: left;
+	box-sizing: border-box;
+	width: 80px;
 }
 
 section.teamlogo p{
